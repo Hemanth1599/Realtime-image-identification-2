@@ -1,0 +1,38 @@
+<html>
+    <head>
+        <title>Realtime face Recognition</title>
+          <meta name="viewport" content="width=device-width, initial-scale=1.0">
+          <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+          <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.4.1/jquery.min.js"></script>
+          <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
+          <link href="https://fonts.googleapis.com/css2?family=Zen+Tokyo+Zoo&display=swap" rel="stylesheet">
+
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/p5.js/1.0.0/p5.js"></script>
+        <script src="https://unpkg.com/ml5@0.4.3/dist/ml5.min.js"></script>
+      
+        <link rel="stylesheet" type="text/css" href="style.css">
+      
+      </head>
+
+      <body background="background.jpg">
+          <center>
+              <div class="col-xs-12 heading">
+                  <h3>Realtime Face Recognition</h3>
+                  <hr width="80%">
+                  <p>Model Trained on:-<br>
+                    Mother  |  Father  |  Son
+                  </p>
+                  <hr>
+                  <br>
+                  <p class="btn btn-warning object">Family Members: 
+                    <span id="object_result"></span>
+                  </p>
+                  <br><br>
+                  <p class="btn btn-warning accuracy">accuracy: 
+                    <span id="accuracy_result"></span>
+                  </p>
+              </div>
+          </center>
+          <script src="main.js"></script>
+      </body>
+</html>

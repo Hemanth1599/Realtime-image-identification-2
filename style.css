@@ -1,0 +1,20 @@
+.heading{
+    color:rgb(20, 250, 20);
+    font-size: 30px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+    
+}
+.heading h3{
+    color: white;
+    font-size: 34px;
+    font-family: 'Zen Tokyo Zoo', cursive;
+}
+.object, .accuracy{
+    font-size: 20px;
+    color: black;
+}
+canvas{
+    border: 5px solid black;
+    margin-top: 150px;
+    border-radius: 70px;
+}
